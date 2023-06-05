@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatever happens heppen for the good</title>
+    <style>
+        .container{
+            width: 600px;
+            height: 600px;
+            margin: auto;
+            border: 20px solid red;
+            display: flex;
+            background-color: rgba(195, 231, 141, 0.795);
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            outline-style: dotted;
+            outline-color: yellow;
+            outline-width: 10px;
+            
+            
+
+        }
+        .box{
+            width: 400px;
+            height: 400px;
+            border: 20px solid green;
+            border-radius: 10px;
+            background-color: rgb(179, 221, 139);
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            outline-offset: 20px;
+            outline-style: dotted;
+            outline-color: yellow;
+            outline-width: 20px;
+            
+            
+            
+        }
+        .content{
+            border: 1px solid red;
+            padding: 5px;
+            transition:  transform 14s;
+        }
+        .content:hover{
+           transform: rotate(360deg);
+
+        }
+        
+            
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1"><h1 class="content">Content</h1></div>
+        
+    </div>
+</body>
+</html>
